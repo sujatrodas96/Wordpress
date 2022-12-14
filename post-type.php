@@ -30,7 +30,11 @@
   <h1><?php the_title(); ?></h1>
   <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="<?php echo get_post_meta('_wp_attachment_image_alt', true ); ?>">
   <p><?php the_excerpt(); the_content(); wp_trim_word(the_content(), 40)?></p>
+<<<<<<< HEAD
   <a href="<?php the_permalink(); ?>"></a>
+=======
+  <a href="<?php the_permalink(); ?> "></a>
+>>>>>>> 8843297 (initial commit)
   <a class="metabox__blog-home-link" href="<?php echo get_post_type_archive_link('event'); ?>">
 </div>
 
