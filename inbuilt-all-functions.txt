@@ -1,0 +1,104 @@
+Post/Page Functions:
+
+get_the_title(): Retrieves the title of the current post.
+the_title(): Outputs the title of the current post.
+get_permalink(): Retrieves the permalink of the current post.
+the_permalink(): Outputs the permalink of the current post.
+the_content(): Outputs the content of the current post or page.
+get_the_excerpt(): Retrieves the excerpt of the current post.
+the_excerpt(): Outputs the excerpt of the current post.
+get_the_author_meta(): Retrieves meta information about the author of the post.
+the_author(): Outputs the author of the post.
+get_the_date(): Retrieves the date of the current post.
+the_date(): Outputs the date of the current post.
+get_the_category_list(): Retrieves a list of categories for the current post.
+the_category(): Outputs the categories of the current post.
+get_the_tag_list(): Retrieves a list of tags for the current post.
+the_tags(): Outputs the tags of the current post.
+the_post_thumbnail(): Outputs the post thumbnail (featured image).
+get_post_thumbnail_id(): Retrieves the ID of the post thumbnail.
+get_post_format(): Retrieves the post format of the current post.
+has_post_thumbnail(): Checks if the current post has a post thumbnail.
+get_post_meta(): Retrieves meta information about the current post.
+get_post_type(): Retrieves the post type of the current post.
+get_edit_post_link(): Retrieves the edit post link of the current post.
+
+
+Template Functions:
+
+get_header(): Includes the header template for the current theme.
+get_footer(): Includes the footer template for the current theme.
+get_sidebar(): Includes the sidebar template for the current theme.
+get_template_part(): Includes a specific template part.
+get_search_form(): Retrieves the search form.
+wp_head(): Outputs content in the <head> section of the current theme.
+wp_footer(): Outputs content in the footer section of the current theme.
+wp_nav_menu(): Outputs a navigation menu.
+wp_enqueue_script(): Enqueues a script.
+wp_enqueue_style(): Enqueues a stylesheet.
+comments_template(): Loads the comments template.
+get_stylesheet_uri(): Retrieves the URL of the current theme's stylesheet.
+body_class(): Outputs the body classes.
+post_class(): Outputs the post classes.
+
+
+User Functions:
+
+wp_get_current_user(): Retrieves the current user object.
+get_userdata(): Retrieves user data by ID.
+get_avatar(): Retrieves the avatar for a user.
+the_author_meta(): Outputs meta information about the author.
+wp_login_url(): Retrieves the login URL.
+wp_logout_url(): Retrieves the logout URL.
+wp_registration_url(): Retrieves the registration URL.
+
+Taxonomy Functions:
+
+get_the_term_list(): Retrieves a list of terms associated with a post.
+the_terms(): Outputs the terms associated with a post.
+get_term_by(): Retrieves a term by a given field and value.
+get_term_link(): Retrieves the link to a term archive.
+get_taxonomy(): Retrieves the taxonomy object.
+get_taxonomies(): Retrieves a list of registered taxonomies.
+term_exists(): Checks if a term exists.
+
+
+Database Functions:
+
+get_posts(): Retrieves posts.
+get_pages(): Retrieves pages.
+get_post(): Retrieves a single post.
+wp_insert_post(): Inserts a post into the database.
+wp_update_post(): Updates a post in the database.
+wp_delete_post(): Deletes a post from the database.
+wp_insert_user(): Inserts a user into the database.
+wp_update_user(): Updates a user in the database.
+wp_delete_user(): Deletes a user from the database.
+wpdb::get_results(): Executes a MySQL query and returns the results as an array of objects.
+wpdb::get_var(): Executes a MySQL query and returns a single value.
+wpdb::get_row(): Executes a MySQL query and returns a single row as an object.
+wpdb::query(): Executes a MySQL query.
+
+
+Miscellaneous Functions:
+is_home(): Checks if the current page is the home page.
+is_front_page(): Checks if the current page is the front page.
+is_page(): Checks if the current page is a page.
+is_single(): Checks if the current page is a single post.
+is_category(): Checks if the current page is a category archive.
+is_tag(): Checks if the current page is a tag archive.
+is_author(): Checks if the current page is an author archive.
+is_search(): Checks if the current page is a search page.
+is_archive(): Checks if the current page is an archive page.
+is_404(): Checks if the current page is a 404 page.
+is_admin(): Checks if the current page is in the admin area.
+is_user_logged_in(): Checks if a user is logged in.
+current_user_can(): Checks if the current user has a specific capability.
+apply_filters(): Calls the callback functions added to a filter hook.
+do_action(): Executes all actions attached to a specific action hook.
+add_action(): Adds a callback function to a specific action hook.
+add_filter(): Adds a callback function to a specific filter hook.
+remove_action(): Removes a callback function from a specific action hook.
+remove_filter(): Removes a callback function from a specific filter hook.
+shortcode_atts(): Parses shortcode attributes.
+do_shortcode(): Executes shortcode tags within content.
